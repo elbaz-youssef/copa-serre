@@ -1,290 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This a website that define the services and products of a cooperative">
     <title>Copa-Serre</title>
-    <link rel="stylesheet" href="css/all.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&amp;family=Courier+Prime:wght@400;700&amp;family=Jomhuria&amp;family=Open+Sans:wght@300;400;500;600;700;800&amp;family=PT+Sans:wght@400;700&amp;family=Poppins:wght@200;300;400;500;600;700&amp;family=Raleway:wght@300;400;600;700;800;900&amp;family=Varela+Round&amp;family=Work+Sans:wght@200;300;400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- needed for fontawesome classes -->
+    <link rel="stylesheet" href="css/all.min.css" />
     <!-- render the element to all sizes -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- main file styling -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&amp;family=Courier+Prime:wght@400;700&amp;family=Jomhuria&amp;family=Open+Sans:wght@300;400;500;600;700;800&amp;family=PT+Sans:wght@400;700&amp;family=Poppins:wght@200;300;400;500;600;700&amp;family=Raleway:wght@300;400;600;700;800;900&amp;family=Varela+Round&amp;family=Work+Sans:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
-</head>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copa-Serre</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
     <!-- start header -->
     <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <a href="#">Copa-Serre</a>
-                </div>
-                <nav class="nav-bar">
-                    <div class="nav-icon">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
-                    </div>
-                    <ul class="header-links">
-                        <li><a href="#home" class="active">accueil</a></li>
-                        <li><a href="#favorite">services</a></li>
-                        <li><a href="#galery">galeries</a></li>
-                        <li><a href="#videos">videos</a></li>
-                        <li><a href="#about">a propos</a></li>
-                        <li><a href="#contact">contactez nous</a></li>
-                        <li><a href="#info">comment aidons?</a></li>
-                        <li><a href="loggin.html">loggin</a></li>
-                    </ul>
-                </nav>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <a href="#" aria-label="logo">Copa-Serre</a>
+          </div>
+          <nav class="nav-bar">
+            <div class="nav-icon">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
             </div>
+            <ul class="header-links">
+              <li><a href="#home" class="active" aria-label="home">accueil</a></li>
+              <li><a href="#service" aria-label="services">services</a></li>
+              <li><a href="#galery" aria-label="galeries">galeries</a></li>
+              <li><a href="#videos" aria-label="videos">videos</a></li>
+              <li><a href="#about" aria-label="about">a propos</a></li>
+              <li><a href="#contact" aria-label="contact">contactez nous</a></li>
+              <li><a href="#info" aria-label="how can we help">comment aidons?</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
     <!-- end header -->
 
     <!-- start home -->
     <div class="home" id="home">
-        <div class="container">
-            <div class="home-content">
-                <div class="home-descr">
-                    <h1>Copa-Serre</h1>
-                    <p>c'est une cooperative agricole qui donnent des services aux cooperateurs.Facilite l'accès des petites moyens agriculteurs aux differents agro-fournitures à moindre cout.</p>
-                </div>
-                <div class="home-img">
-                    <img src="images/IMG20230524110718.jpg" alt="image">
-                </div>
-            </div>
+      <div class="container">
+        <div class="home-content">
+          <div class="home-descr">
+            <h1>Copa-Serre</h1>
+            <p>
+              c'est une cooperative agricole qui donnent des services aux
+              cooperateurs.Facilite l'accès des petites moyens agriculteurs aux
+              differents agro-fournitures à moindre cout.
+            </p>
+          </div>
+          <div class="home-img">
+            <img
+              src="images/hero.webp"
+              alt="hero image"
+              loading="lazy"
+            />
+          </div>
         </div>
-        <div class="down">
-            <a href="#favorite">
-                <i class="fa-solid fa-angle-down fa-2x"></i>
-                <i class="fa-solid fa-angle-down fa-2x"></i>
-            </a>
-        </div>
+      </div>
+      <div class="down">
+        <a href="#service" aria-label="go down icon" title="go to services">
+          <i class="fa-solid fa-angle-down fa-2x"></i>
+          <i class="fa-solid fa-angle-down fa-2x"></i>
+        </a>
+      </div>
     </div>
     <!-- end home -->
 
-    <!-- start favorites -->
-    <section class="favorite padd-y" id="favorite">
-        <div class="container">
-            <h2 class="special-heading">services</h2>
-            <div class="favorite-container grid-division">
-                <div class="favorite-content">
-                    <div class="favorite-img">
-                        <img src="images/IMG20230525162242.jpg">
-                    </div>
-                    <div class="favorite-descr">
-                        <h3>Sale de Conférence</h3>
-                        <p>C'est la place des conférences importantes.</p>
-                        <button><a href="error.html" target="_blank">More</a></button>
-                    </div>
-                </div>
-                <div class="favorite-content">
-                    <div class="favorite-img">
-                        <img src="images\IMG20230525162015.jpg">
-                    </div>
-                    <div class="favorite-descr">
-                        <h3>L'administration</h3>
-                        <p>C'est le lieu ou les opération de vente effectué.</p>
-                        <button><a href="error.html" target="_blank">More</a></button>
-                    </div>
-                </div>
-                <div class="favorite-content">
-                    <div class="favorite-img">
-                        <img src="images/IMG20230525162304.jpg">
-                    </div>
-                    <div class="favorite-descr">
-                        <h3>cuisine</h3>
-                        <p>C'est l'endroit pour manger et boire.</p>
-                        <button><a href="error.html" target="_blank">More</a></button>
-                    </div>
-                </div>
+    <!-- start services -->
+    <section class="service padd-y" id="service">
+      <div class="container">
+        <h2 class="special-heading">services</h2>
+        <div class="service-container grid-division">
+          <div class="service-content">
+            <div class="service-img">
+              <img
+                src="images/service1.webp"
+                alt="service1"
+                loading="lazy"
+              />
             </div>
+            <div class="service-descr">
+              <h3>Sale de Conférence</h3>
+              <p>C'est la place des conférences importantes.</p>
+              <button>
+                <a href="#service" aria-label="service1">More</a>
+            </button>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="service-img">
+              <img
+                src="images\service2.webp"
+                alt="service2"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-descr">
+              <h3>L'administration</h3>
+              <p>C'est le lieu ou les opération de vente effectué.</p>
+              <button><a href="#service" aria-label="service2">More</a></button>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="service-img">
+              <img
+                src="images/service3.webp"
+                alt="service3"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-descr">
+              <h3>cuisine</h3>
+              <p>C'est l'endroit pour manger et boire.</p>
+              <button><a href="#service" aria-label="service3">More</a></button>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- end of favorites -->
+    <!-- end of services -->
 
     <!-- start galery -->
     <section class="galery padd-y" id="galery">
-        <div class="container">
-            <h2 class="special-heading">galeries</h2>
-            <div class="galery-container grid-division">
-                <div class="galery-content">
-                    <div class="galery-img">
-                        <div class="face front"><img src="images/IMG20230513150119.jpg"></div>
-                        <div class="face back"><img src="images/IMG20230513150548.jpg"></div>
-                    </div>
-                </div>
-                <div class="galery-content">
-                    <div class="galery-img">
-                        <div class="face front"><img src="images/IMG20230513150130.jpg"></div>
-                        <div class="face back"><img src="images/IMG20230513150555.jpg"></div>
-                    </div>
-                </div>
-                <div class="galery-content">
-                    <div class="galery-img">
-                        <div class="face front"><img src="images/IMG20230513150138.jpg"></div>
-                        <div class="face back"><img src="images/IMG20230513150530.jpg"></div>
-                    </div>
-                </div>
-                <div class="galery-content">
-                    <div class="galery-img">
-                        <div class="face front"><img src="images/IMG20230513150340.jpg"></div>
-                        <div class="face back"><img src='images/IMG20230513150333.jpg'></div>
-                    </div>
-                </div>
-                <div class="galery-content">
-                    <div class="galery-img">
-                        <div class="face front"><img src="images/IMG20230513150350.jpg"></div>
-                        <div class="face back"><img src="images/IMG20230513150426.jpg"></div>
-                    </div>
-                </div>
-                <div class="galery-content">
-                    <div class="galery-img">
-                        <div class="face front"><img src="images/IMG20230513150402.jpg"></div>
-                        <div class="face back"><img src="images/IMG20230513150355.jpg"></div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="special-heading">galeries</h2>
+        <div class="galery-container grid-division">
+          <div class="galery-content">
+            <div class="galery-img">
+              <div class="face front">
+                <img src="images/galery1.webp" alt="galery1.1" loading="lazy"/>
+              </div>
+              <div class="face back">
+                <img src="images/galery1.webp" alt="galery1.2" loading="lazy"/>
+              </div>
             </div>
+          </div>
+          <div class="galery-content">
+            <div class="galery-img">
+              <div class="face front">
+                <img src="images/galery2.webp" alt="galery2.1" loading="lazy"/>
+              </div>
+              <div class="face back">
+                <img src="images/galery2.webp" alt="galery2.2" loading="lazy"/>
+              </div>
+            </div>
+          </div>
+          <div class="galery-content">
+            <div class="galery-img">
+              <div class="face front">
+                <img src="images/galery3.webp" alt="galery3.1" loading="lazy"/>
+              </div>
+              <div class="face back">
+                <img src="images/galery3.webp" alt="galery3.2" loading="lazy"/>
+              </div>
+            </div>
+          </div>
+          <div class="galery-content">
+            <div class="galery-img">
+              <div class="face front">
+                <img src="images/galery4.webp" alt="galery4.1" loading="lazy"/>
+              </div>
+              <div class="face back">
+                <img src="images/galery4.webp" alt="galery4.2" loading="lazy"/>
+              </div>
+            </div>
+          </div>
+          <div class="galery-content">
+            <div class="galery-img">
+              <div class="face front">
+                <img src="images/galery5.webp" alt="galery5.1" loading="lazy"/>
+              </div>
+              <div class="face back">
+                <img src="images/galery5.webp" alt="galery5.2" loading="lazy"/>
+              </div>
+            </div>
+          </div>
+          <div class="galery-content">
+            <div class="galery-img">
+              <div class="face front">
+                <img src="images/galery6.webp" alt="galery6.1" loading="lazy"/>
+              </div>
+              <div class="face back">
+                <img src="images/galery6.webp" alt="galery6.2" loading="lazy"/>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- end of galery -->
 
-    
-    
-
     <!-- start videos -->
     <section class="videos padd-y" id="videos">
-        <div class="container">
-            <h2 class="special-heading">videos</h2>
-            <div></div>
-            <div></div>
-            <div class="video-container">
-                <iframe height="350px" src="https://www.youtube.com/embed/OK8piiJVEdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-                <iframe height="350px" src="https://www.youtube.com/embed/uJBWiOiACPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-                <iframe height="350" src="https://www.youtube.com/embed/25T774n0SPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-            </div>
-            <div class="animat-motion">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <div class="container">
+        <h2 class="special-heading">videos</h2>
+        <div></div>
+        <div></div>
+        <div class="video-container grid-division">
+          <iframe
+            loading="lazy"
+            height="350px"
+            src="https://www.youtube.com/embed/OK8piiJVEdI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+          ></iframe>
+          <iframe
+            loading="lazy"
+            height="350px"
+            src="https://www.youtube.com/embed/uJBWiOiACPU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+          ></iframe>
+          <iframe
+            loading="lazy"
+            height="350"
+            src="https://www.youtube.com/embed/25T774n0SPM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+          ></iframe>
         </div>
+        <div class="animat-motion">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
     </section>
     <!-- end of videos -->
 
     <!-- about section -->
     <section class="about padd-y" id="about">
-        <div class="container">
-            <h2 class="special-heading">a propos de nous</h2>
-            <div class="about-container">
-                <div class="about-content">
-                    <div class="content">
-                        <h3>Copa-Serre</h3>
-                        <p>c'est une cooperative agricole etabli en 2010, elle vise de fournir des services aux cooperateurs,elle responsable de la vente des produits agricoles tel que les angrais,les pesticides,materiels d'irrigation,biostimilau... et aussi donne des conseils aux cooperteurs.</p>
-                        <p>"Les fruits de la patience sont les plus savoureux."</p>
-                    </div>
-                    <div class="about-image">
-                        <img src="images/IMG20230525162519.jpg">
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="special-heading">a propos de nous</h2>
+        <div class="about-container">
+          <div class="about-content">
+            <div class="content">
+              <h3>Copa-Serre</h3>
+              <p>
+                c'est une cooperative agricole etabli en 2010, elle vise de
+                fournir des services aux cooperateurs,elle responsable de la
+                vente des produits agricoles tel que les angrais,les
+                pesticides,materiels d'irrigation,biostimilau... et aussi donne
+                des conseils aux cooperteurs.
+              </p>
+              <p>"Les fruits de la patience sont les plus savoureux."</p>
             </div>
+            <div class="about-image">
+              <img src="images/about.webp" alt="about image" loading="lazy"/>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- end of about section -->
 
     <!-- start contact -->
     <section class="contact padd-y" id="contact">
-        <div class="container">
-            <h2 class="special-heading">contactez nous</h2>
-            <div class="contact-container">
-                    <div class="cont">
-                        <div class="phone">
-                            <div>
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <h3>Phone</h3>
-                            <p>+212 666871753</p>
-                        </div>
-                        <div class="fax">
-                            <div>
-                                <i class="fa-solid fa-fax"></i>
-                            </div>
-                            <h3>Tele Fax</h3>
-                            <p>0528521620</p>
-                        </div>
-                        <div class="email">
-                            <div>
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <h3>Email</h3>
-                            <p>Serrecopa2018@gmail.com</p>
-                        </div>
-                        <div class="email">
-                            <div>
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <h3>Address</h3>
-                            <p>Agadir,Ouled Teima,Sidi Moussa LHamri</p>
-                        </div>
-                   </div>
+      <div class="container">
+        <h2 class="special-heading">contactez nous</h2>
+        <div class="contact-container">
+          <div class="cont">
+            <div class="phone">
+              <div>
+                <i class="fas fa-phone"></i>
+              </div>
+              <h3>Phone</h3>
+              <p>+212 666871753</p>
             </div>
+            <div class="fax">
+              <div>
+                <i class="fa-solid fa-fax"></i>
+              </div>
+              <h3>Tele Fax</h3>
+              <p>0528521620</p>
+            </div>
+            <div class="email">
+              <div>
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h3>Email</h3>
+              <p>Serrecopa2018@gmail.com</p>
+            </div>
+            <div class="email">
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <h3>Address</h3>
+              <p>Agadir,Ouled Teima,Sidi Moussa LHamri</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- end of contact-->
-    
+
     <!-- start info -->
     <section class="info padd-y" id="info">
-        <div class="container">
-            <h2 class="special-heading">comment aidons?</h2>
-            <form>
-                <input type="text" placeholder="Name" required="" spellcheck="false" data-ms-editor="true">
-                <input type="password" placeholder="Password" required="">
-                <input type="email" placeholder="Email" required="">
-                <textarea placeholder="Message" spellcheck="false" data-ms-editor="true"></textarea>
-                <div class="submit"><input type="submit" value="Send message"></div>
-            </form>
-        </div>
+      <div class="container">
+        <h2 class="special-heading">comment aidons?</h2>
+        <form>
+          <input
+            type="text"
+            placeholder="Name"
+            required=""
+            spellcheck="false"
+            data-ms-editor="true"
+          />
+          <input type="password" placeholder="Password" required="" />
+          <input type="email" placeholder="Email" required="" />
+          <textarea
+            placeholder="Message"
+            spellcheck="false"
+            data-ms-editor="true"
+          ></textarea>
+          <div class="submit">
+            <input type="submit" value="Send message" />
+         </div>
+        </form>
+      </div>
     </section>
     <!-- end of info -->
 
     <!-- start footer -->
-    <footer class="footer padd-y">
-        <div class="container">
-            <h3>Copa-Serre</h3>
-            <p>Copyright © <span id="copyright-year"></span> | tous les droits reservee</p>
-            <p>cree avec <i class="fa-solid fa-heart"></i> par <span>youssef</span></p>
-        </div>
+    <footer class="footer">
+      <div class="container">
+        <h3>Copa-Serre</h3>
+        <p>
+          Copyright © <span id="copyright-year"></span> | Tous droits réservés
+        </p>
+        <p>
+          Créé avec <i class="fa-solid fa-heart"></i> par Youssef
+        </p>
+      </div>
     </footer>
     <!-- end of footer -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="js/main.js"></script>
-    <style type="text/css" data-typed-js-css="true">
-        .typed-cursor {
-          opacity: 1;
-        }
-        .typed-cursor.typed-cursor--blink{
-          animation: typedjsBlink 0.7s infinite;
-          -webkit-animation: typedjsBlink 0.7s infinite;
-                  animation: typedjsBlink 0.7s infinite;
-        }
-        @keyframes typedjsBlink{
-          50% { opacity: 0.0; }
-        }
-        @-webkit-keyframes typedjsBlink{
-          0% { opacity: 1; }
-          50% { opacity: 0.0; }
-          100% { opacity: 1; }
-        }
-      </style>
-</body>
+    <script src="js/main.min.js"></script>
+  </body>
 </html>
